@@ -18,8 +18,8 @@ def my_api():
         current_day=day,
         utc_time=datetime.datetime.utcnow().isoformat() + "Z",
         track=track,
-        github_file_url="https://github.com/username/repo/blob/main/file_name.ext",
-        github_repo_url="https://github.com/username/repo",
+        github_file_url="https://github.com/Gbeminiyi-A/stage-one.py/blob/master/main.py",
+        github_repo_url="https://github.com/Gbeminiyi-A/stage-one.py",
         status_code=200
     )
 
