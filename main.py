@@ -7,7 +7,7 @@ app = Flask(__name__)
 day = date.today().strftime("%A")
 
 
-@app.route("/")
+@app.route("/api")
 def my_api():
 
     name = request.args.get("slack_name")
