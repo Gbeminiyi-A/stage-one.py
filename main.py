@@ -16,7 +16,7 @@ def my_api():
     return jsonify(
         slack_name=name,
         current_day=day,
-        utc_time=datetime.datetime.utcnow().isoformat() + "Z",
+        utc_time=datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
         track=track,
         github_file_url="https://github.com/Gbeminiyi-A/stage-one.py/blob/master/main.py",
         github_repo_url="https://github.com/Gbeminiyi-A/stage-one.py",
